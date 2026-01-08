@@ -1,7 +1,7 @@
-package com.parthibanrajasekaran;
+package com.vmuthu;
 
-import com.parthibanrajasekaran.controller.AllCourseData;
-import com.parthibanrajasekaran.repository.CoursesRepository;
+import com.vmuthu.controller.AllCourseData;
+import com.vmuthu.repository.CoursesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

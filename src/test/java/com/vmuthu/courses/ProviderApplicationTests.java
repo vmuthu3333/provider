@@ -1,8 +1,8 @@
-package com.parthibanrajasekaran.courses;
+package com.vmuthu.courses;
 
-import com.parthibanrajasekaran.controller.AllCourseData;
-import com.parthibanrajasekaran.controller.AllCourseDetailsController;
-import com.parthibanrajasekaran.repository.CoursesRepository;
+import com.vmuthu.controller.AllCourseData;
+import com.vmuthu.controller.AllCourseDetailsController;
+import com.vmuthu.repository.CoursesRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

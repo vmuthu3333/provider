@@ -1,6 +1,6 @@
-package com.parthibanrajasekaran.controller;
+package com.vmuthu.controller;
 
-import com.parthibanrajasekaran.repository.CoursesRepository;
+import com.vmuthu.repository.CoursesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

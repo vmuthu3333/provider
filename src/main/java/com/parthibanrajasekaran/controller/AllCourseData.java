@@ -1,4 +1,4 @@
-package com.parthibanrajasekaran.controller;
+package com.vmuthu.controller;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.parthibanrajasekaran.courses;
+package com.vmuthu.courses;
 
 import au.com.dius.pact.provider.junit5.HttpTestTarget;
 import au.com.dius.pact.provider.junit5.PactVerificationContext;
@@ -17,7 +17,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Provider("CoursesCatalogue")
 //@PactFolder("src/main/java/pacts") // By default, it looks in src/main/java
-@PactBroker(url = "https://parthibanrajasekaran.pactflow.io", authentication = @PactBrokerAuth(token = "kcV49WSgJWSC7vgjlNlWIQ"), enablePendingPacts = "false")
+@PactBroker(url = "https://vmuthu.pactflow.io", authentication = @PactBrokerAuth(token = "kcV49WSgJWSC7vgjlNlWIQ"), enablePendingPacts = "false")
 public class PactCoursesTests {
 
     @LocalServerPort

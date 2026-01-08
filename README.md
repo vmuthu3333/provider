@@ -6,7 +6,7 @@ This is a spring boot based microservice for technical courses that shall be con
 
 1. Clone the Project
 2. Create DB and Tables specified 
-3. Start the server by running : *src/main/java/com/parthibanrajasekaran/ProviderApplication.java*
+3. Start the server by running : *src/main/java/com/vmuthu/ProviderApplication.java*
 
 ### DB & Table creation
 
@@ -42,8 +42,8 @@ FROM
 * IDE (IntelliJ)
 
 ## Test Location
-* Pact Provider Tests: src/test/java/com/parthibanrajasekaran/courses/PactCoursesTests.java
-* Unit Tests: src/test/java/com/parthibanrajasekaran/courses/ProviderApplicationTests.java
+* Pact Provider Tests: src/test/java/com/vmuthu/courses/PactCoursesTests.java
+* Unit Tests: src/test/java/com/vmuthu/courses/ProviderApplicationTests.java
 
 ## Usage
 
@@ -53,7 +53,7 @@ FROM
 ```
 $ mvn clean test
 ```
-* By default, the pact tests run against the contract in remote url (https://parthibanrajasekaran.pactflow.io/)
+* By default, the pact tests run against the contract in remote url (https://vmuthu.pactflow.io/)
 
 * If you wish to run contracts from your local machine, then move your contract to src/main/java/pacts then run your pact tests in the aforementioned location
 

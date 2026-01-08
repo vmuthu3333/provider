@@ -1,6 +1,6 @@
-package com.parthibanrajasekaran.repository;
+package com.vmuthu.repository;
 
-import com.parthibanrajasekaran.controller.AllCourseData;
+import com.vmuthu.controller.AllCourseData;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
